@@ -15,6 +15,11 @@
 <h3>Vad vet du om fåglar?</h3>
 <h3>Vad vet du om katter?</h3>
 <h3>Vad vet du egentligen?</h3>
+
+{% for quiz in quizzes %}
+	<p>{{ quiz.name }}</p>
+{% endfor %}
+
 <p>Det här är Malin Cronas quiz.</p>
 <div class=footer>
 <a href="https:malincrona.com">Malin Crona</a></div>
