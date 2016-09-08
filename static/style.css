@@ -1,8 +1,9 @@
-h1 {color: orange;
+h1 {color: green;
 	font-size: 72px;
 	text-align: center;
-	 background-color: #00ff00;
+}
 
+button {color: blue;
 }
 
 {
@@ -30,6 +31,5 @@ html {
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
- background-color: #00ff00;
 }
 }
