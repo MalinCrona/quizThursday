@@ -17,7 +17,7 @@
 <h3>Vad vet du egentligen?</h3>
 
 {% for quiz in quizzes %}
-	<p>{{ quiz.name }}</p>
+	<p><a href="{% url 'quiz_page' quiz.quiz_number %}">{{ quiz.name }}</a></p>
 {% endfor %}
 
 <p>Det här är Malin Cronas quiz.</p>
