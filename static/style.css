@@ -1,0 +1,28 @@
+h1 {color: orange;
+	font-size: 72px;
+	text-align: center;
+
+}
+h2 {color: blue;
+font-size: 48px;
+text-align: center;
+
+}
+h3 {color:red;
+font-size: 30px
+}
+
+a {text-align: center;
+}
+.footer {
+	text-align: right;
+}
+
+html { 
+ background: url(static/Barcelona.jpg)
+ no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
