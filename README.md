@@ -1,0 +1,2 @@
+# quizThursday
+Testar Django
