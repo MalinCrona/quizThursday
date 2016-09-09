@@ -27,6 +27,10 @@ h3 {color:red;
 font-size: 30px
 }
 
+<h6> {color: black;
+	font-size: 52;
+}
+
 a {text-align: center;
 	color: black;
 }

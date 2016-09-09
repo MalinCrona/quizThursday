@@ -7,7 +7,7 @@ quizzes = [
 	},
 	{
 		"quiz_number": 2,
-   	   	"name": "Största slagen",
+   	   	"name": "Största fotbollslagen",
 	   	"description": "Kan du dina lag?"
 	},
 	{
