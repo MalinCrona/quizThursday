@@ -1,6 +1,14 @@
 <h1>{{ question_number }}. {{ question }}</h1>
-	<p>{{ answer1 }}</p>
-	<p>{{ answer2 }}</p>
-	<p>{{ answer3 }}</p>
+<form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post">{% csrf_token %}
+	<p>{{ answer1 }}</p></form>
+<form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post">{% csrf_token %}
+	<p>{{ answer2 }}</p></form>
+<form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post">{% csrf_token %}
+	<p>{{ answer3 }}</p></form>
 
-	<p><a href="{% url 'completed_page' quiz_number %}">Nästa</a></p>
+<input type="radio" name="answer" value="1"> {{ answer1 }}
+<input type="radio" name="answer" value="2"> {{ answer2 }}
+<input type="radio" name="answer" value="3"> {{ answer3 }}
+
+	<p><a href="{% url 'completed_page' quiz_number %}"><button type="submit">Nästa</button></a></p>
+	
